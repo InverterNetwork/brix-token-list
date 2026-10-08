@@ -1,0 +1,27 @@
+{
+  "name": "Brix Token List",
+  "timestamp": "2026-10-08T10:25:06Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tokens": [
+    {
+      "chainId": 1,
+      "address": "0x61a075979fD5D9fC3B4f3db8aC77B710B03EcDc2",
+      "name": "emUSD",
+      "symbol": "emUSD",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/InverterNetwork/brix-token-list/main/logos/emusd.svg"
+    },
+    {
+      "chainId": 1,
+      "address": "0xefE3c772C7020F14d5f6b9d7436f1b8Dfa8fB5AF",
+      "name": "wemUSD",
+      "symbol": "wemUSD",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/InverterNetwork/brix-token-list/main/logos/wemusd.svg"
+    }
+  ]
+}
