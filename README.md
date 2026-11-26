@@ -1,6 +1,6 @@
 # Brix Token List
 
-Ethereum mainnet emUSD and wemUSD metadata for CoW Swap and compatible token-list consumers. No testnet or bridged tokens are included.
+Ethereum mainnet emUSD, wemUSD, iTRY, and wiTRY metadata for CoW Swap and compatible token-list consumers. No testnet or bridged tokens are included.
 
 ## Integration URL
 
@@ -21,11 +21,20 @@ Read directly from Ethereum mainnet (chain ID 1), block **26147019**, on 8 Octob
 
 wemUSD's `asset()` returned the emUSD address above. These addresses also match issuer production configuration. No transaction or signature was needed for verification.
 
+The iTRY and wiTRY contract addresses match the [Brix Ethereum deployment documentation](https://docs.brix.money/resources/contracts). The list uses Brix’s public token labels.
+
+| Symbol | Name | Address | Decimals |
+|---|---|---|---|
+| iTRY | iTRY | `0xb492B4aFD9658093694CF9452D5C272e8230F3B0` | 18 |
+| wiTRY | Wrapped iTRY | `0xE346C29b5B60Ef870b9724c57ccfbBc631e47DEE` | 18 |
+
 ## Assets
 
 `logos/emusd.svg` and `logos/wemusd.svg` are the original frontend token icons supplied by the design team, copied without modification from `packages/web-consumer/public/tokens/` at frontend commit `9c18bb1b72717b0405c82576b7ae84316199bb20`.
 
 The SVGs include Figma-generated HTML `foreignObject` conic gradients. Their markup contains no scripts or external references. Check rendering in CoW's image component before activation; if its image pipeline strips those gradients, request flat PNG exports from design. No substitute artwork is used.
+
+The iTRY and wiTRY logo URLs point to the token icons on the official Brix website.
 
 ## Validation and maintenance
 
@@ -39,4 +48,4 @@ For updates, verify new metadata on the intended chain, update the timestamp and
 
 Share the raw token-list URL above with CoW for inclusion. Verify logo rendering in their image component. Adding the list does not activate solver routes or grant any contract permissions.
 
-Future issuer assets can be added after their chain, metadata and official artwork are verified. iTRY/wiTRY are not included in this initial release.
+Future issuer assets can be added after their chain, metadata and official artwork are verified.
