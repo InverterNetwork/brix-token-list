@@ -12,21 +12,18 @@ CoW must add the list to its interface; hosting alone does not list the tokens o
 
 ## Verified token metadata
 
-Read directly from Ethereum mainnet (chain ID 1), block **26147019**, on 8 October 2026:
-
-| Symbol / on-chain name | Address | Decimals |
-|---|---|---|
-| emUSD | `0x61a075979fD5D9fC3B4f3db8aC77B710B03EcDc2` | 18 |
-| wemUSD | `0xefE3c772C7020F14d5f6b9d7436f1b8Dfa8fB5AF` | 18 |
-
-wemUSD's `asset()` returned the emUSD address above. These addresses also match issuer production configuration. No transaction or signature was needed for verification.
-
-The iTRY and wiTRY contract addresses match the [Brix Ethereum deployment documentation](https://docs.brix.money/resources/contracts). The list uses Brix’s public token labels.
+All four tokens are on Ethereum mainnet (chain ID 1).
 
 | Symbol | Name | Address | Decimals |
 |---|---|---|---|
+| emUSD | emUSD | `0x61a075979fD5D9fC3B4f3db8aC77B710B03EcDc2` | 18 |
+| wemUSD | wemUSD | `0xefE3c772C7020F14d5f6b9d7436f1b8Dfa8fB5AF` | 18 |
 | iTRY | iTRY | `0xb492B4aFD9658093694CF9452D5C272e8230F3B0` | 18 |
 | wiTRY | Wrapped iTRY | `0xE346C29b5B60Ef870b9724c57ccfbBc631e47DEE` | 18 |
+
+The emUSD and wemUSD metadata was read directly from Ethereum mainnet at block **26147019** on 8 October 2026. Both addresses match issuer production configuration, and wemUSD’s `asset()` returned the emUSD address. Verification required no transaction or signature.
+
+The iTRY and wiTRY addresses match the [Brix Ethereum deployment documentation](https://docs.brix.money/resources/contracts). The list uses Brix’s public token labels.
 
 ## Assets
 
