@@ -1,9 +1,9 @@
 {
   "name": "Brix Token List",
-  "timestamp": "2026-10-08T10:25:06Z",
+  "timestamp": "2026-11-26T22:31:18Z",
   "version": {
     "major": 1,
-    "minor": 0,
+    "minor": 1,
     "patch": 0
   },
   "tokens": [
@@ -22,6 +22,22 @@
       "symbol": "wemUSD",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/InverterNetwork/brix-token-list/main/logos/wemusd.svg"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb492B4aFD9658093694CF9452D5C272e8230F3B0",
+      "name": "iTRY",
+      "symbol": "iTRY",
+      "decimals": 18,
+      "logoURI": "https://brix.money/images/tokens/iTRY-token.svg?dpl=dpl_AYP69R28ds5CPBdjcQFMFhjeCvE1"
+    },
+    {
+      "chainId": 1,
+      "address": "0xE346C29b5B60Ef870b9724c57ccfbBc631e47DEE",
+      "name": "Wrapped iTRY",
+      "symbol": "wiTRY",
+      "decimals": 18,
+      "logoURI": "https://brix.money/images/tokens/wiTRY-token.svg?dpl=dpl_AYP69R28ds5CPBdjcQFMFhjeCvE1"
     }
   ]
 }
